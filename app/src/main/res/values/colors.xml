@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="splash_activity_status_bar_color">#15AEFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#000000</color>
+    <color name="blue">#15AEFF</color>
+    <color name="whites">#ffffff</color>
+    <color name="color_bg_normal">#e7e7e8</color>
+    <color name="color_view">#ddd</color>
+    <color name="color_theme">#293767</color>
+    <color name="color_497CE2">#497CE2</color>
+    <color name="color_grey_background">#F3F4F9</color>
+    <color name="color_transparent">#00000000</color>
+    <color name="color_E17575">#E17575</color>
+    <color name="color_C0D2F8">#C0D2F8</color>
+    <color name="color_c">#CCCCCC</color>
+    <color name="color_d">#ddd</color>
+    <color name="color_empty">#F3F4F9</color>
+    <color name="color_charging">#16CCAF</color>
+    <color name="color_not_charging">#999999</color>
+    <color name="color_book">#31D232</color>
+    <color name="color_DA5050">#DA5050</color>
+    <color name="color_293767">#293767</color>
+    <color name="color_text4">#444</color>
+    <color name="color_4E9B88">#4E9B88</color>
+    <color name="color_BB9361">#BB9361</color>
+    <color name="color_C85F5F">#C85F5F</color>
+    <color name="red">#E52816</color>
+    <color name="yellow">#FFCD43</color>
+    <color name="test1">#FFEAFE</color>
+    <color name="test2">#9C4FE9</color>
+    <color name="five_translucent">#7f000000</color>
+    <color name="four_translucent">#4C000000</color>
+    <color name="three_translucent">#66000000</color>
+    <color name="nine_translucent">#e5000000</color>
+    <color name="dialog_bg">#081E2E</color>
+</resources>

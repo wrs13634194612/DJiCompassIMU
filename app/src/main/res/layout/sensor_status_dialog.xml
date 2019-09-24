@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/contentView"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/three_translucent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rl_main"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+
+            <RadioGroup
+                android:id="@+id/activity_rgp"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:fadingEdge="none"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/notification_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_group_selector"
+                    android:button="@color/transparent"
+                    android:gravity="center"
+                    android:text="IMU"
+                    android:checked="true"
+                    android:textColor="@drawable/color_radiobutton" />
+
+                <RadioButton
+                    android:id="@+id/vote_rb"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/radio_group_selector"
+                    android:button="@color/transparent"
+                    android:gravity="center"
+                    android:text="指南针"
+                    android:textColor="@drawable/color_radiobutton" />
+            </RadioGroup>
+
+
+        </RelativeLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_below="@+id/rl_main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

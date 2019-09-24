@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Testz</string>
+
+    <string name="dialog_imu">IMU</string>
+    <string name="dialog_compass">指南针</string>
+    <string name="dialog_Accelerometer">加速度计</string>
+    <string name="dialog_Gyroscope">陀螺仪</string>
+    <string name="dialog_Deviation">零偏</string>
+    <string name="dialog_Interference">干扰量</string>
+    <string name="dialog_Calibration_imu">校准IMU</string>
+    <string name="dialog_Calibration_compass">指南针校准</string>
+    <string name="sensor_status">传感器状态</string>
+    <string name="dialog_use_current">当前使用</string>
+
+    <string name="compass_horizontal_title">水平旋转飞行器360度</string>
+    <string name="compass_vertical_title">数值旋转飞行器360度</string>
+    <string name="compass_horizontal_content">成功进入校准指南针模式，请远离金属或带强电物体等，并在离地1.5M左右，水平旋转飞行器360度</string>
+    <string name="compass_vertical_content">成功进入校准指南针模式，请远离金属或带强电物体等，并在离地1.5M左右，竖直旋转飞行器360度</string>
+    <string name="compass_cancel">取消校准</string>
+    <string name="compass_fail_title">指南针校准失败</string>
+    <string name="compass_fail_content">取消校准</string>
+    <string name="compass_success_title">指南针校准成功</string>
+    <string name="compass_success_content">成功校准指南针，请点击确定返回</string>
+    <string name="compass_sure">确定</string>
+
+
+</resources>

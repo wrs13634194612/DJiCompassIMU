@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="指南针1"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="指南针2"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:gravity="center_vertical"
+                android:text="@string/dialog_Interference"
+                android:textColor="@color/white"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="123"
+                android:textColor="@color/white" />
+
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="123"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="57dp" />
+
+            <com.example.administrator.testz.ZProgressBar
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:max="100"
+                app:zpb_backgroundColor="@color/color_book"
+                app:zpb_duration="300"
+                app:zpb_progressColor="@color/colorAccent"
+                app:zpb_radius="16dp" />
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <com.example.administrator.testz.ZProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:max="100"
+                app:zpb_backgroundColor="@color/color_book"
+                app:zpb_duration="300"
+                app:zpb_progressColor="@color/colorAccent"
+                app:zpb_radius="16dp" />
+
+        </LinearLayout>
+
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        >
+        <LinearLayout
+            android:id="@+id/start_compass"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/dialog_Calibration_compass"
+                android:textColor="@color/blue"
+                android:textSize="18sp" />
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="250dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="5dp"
+                android:background="@drawable/circle_dialog" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:text="@string/dialog_use_current"
+                android:textColor="@color/white" />
+
+            <com.example.administrator.testz.ZProgressBar
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:max="100"
+                app:zpb_backgroundColor="@color/color_book"
+                app:zpb_duration="300"
+                app:zpb_progressColor="@color/colorAccent"
+                app:zpb_radius="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="优"
+                android:textColor="@color/white" />
+
+            <com.example.administrator.testz.ZProgressBar
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:max="100"
+                app:zpb_backgroundColor="@color/yellow"
+                app:zpb_duration="300"
+                app:zpb_progressColor="@color/colorAccent"
+                app:zpb_radius="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="良"
+                android:textColor="@color/white" />
+
+            <com.example.administrator.testz.ZProgressBar
+                android:layout_width="20dp"
+                android:layout_height="10dp"
+                android:layout_marginLeft="5dp"
+                android:max="100"
+                app:zpb_backgroundColor="@color/red"
+                app:zpb_duration="300"
+                app:zpb_progressColor="@color/colorAccent"
+                app:zpb_radius="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="差"
+                android:textColor="@color/white" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</LinearLayout>
